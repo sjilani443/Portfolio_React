@@ -1,0 +1,99 @@
+import React from "react";
+import Myimg from "../assets/IMG_20231112_153643_780.jpg";
+import Leetcode from "../assets/Screenshot 2024-06-14 162813.png";
+import recipeheavenimg from '../assets/Screenshot 2024-06-14 185148.png'
+function Home() {
+  return (
+    <div className="font-poppins px-5">
+      <div className="h-[90vh] sm:h-[60vh] flex flex-col sm:flex-row gap-[100px] justify-between items-center px-2 sm:mx-10 bg-orange-500 rounded-md sm:py-20 sm:px-20 mb-10">
+        <div className="h-[40vh]">
+          <div className="text-5xl pb-10 pt-5 flex flex-col gap-6">
+            Hey There. <br />{" "}
+            <span>
+              I'm <u className="text-[#ffffff] font-bold">Jeelani Basha.</u>
+            </span>
+          </div>
+          <div className="text-2xl flex flex-wrap sm:w-[53vw]">
+            I'm a Web Developer, 3rd year B.Tech Computer Science (CSE) Student,
+            Aspiring to become a Software Engineer. Also intersted in Problem
+            Solving.
+          </div>
+        </div>
+        <div className="h-full">
+          <img
+            className="h-[34vh] w-[35vh] border-black border-2"
+            src={Myimg}
+            alt="Personal Photo"
+          />
+        </div>
+      </div>
+
+      <div className="sm:px-20 sm:mx-10 sm:my-20 pl-2">
+        <p className="text-3xl">Education:</p>
+        <table className="border border-black w-[80%] border-separate border-spacing-0 my-10 text-2xl">
+          <tbody>
+            <tr className="border-b border-black">
+              <td className="border border-black p-4">
+                SRM University AP, Amravati-Btech (CSE)
+              </td>
+              <td className="border border-black p-4">
+                CGPA: <span className="text-orange-400">9.3</span>
+              </td>
+            </tr>
+            <tr className="border-b border-black">
+              <td className="border border-black p-4">
+                Loyola Public School, Nallapadu-ISC (MPC)
+              </td>
+              <td className="border border-black p-4">
+                Per: <span className="text-orange-400">89%</span>
+              </td>
+            </tr>
+            <tr className="border-b border-black">
+              <td className="border border-black p-4">
+                Loyola Public School, Nallapadu-School
+              </td>
+              <td className="border border-black p-4">
+                Per: <span className="text-orange-400">93%</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <a href="https://srmap.edu.in/" target="_blank">
+          <p className="text-black flex gap-2 items-center text-xl">
+            Check out more about SRM AP -
+            <img
+              className="h-[50px] "
+              src="https://upload.wikimedia.org/wikipedia/en/6/6e/SRM_University%2C_Andhra_Pradesh_logo.png"
+              alt=""
+            />
+          </p>
+        </a>
+      </div>
+
+      <div className="sm:px-20 sm:mx-10 sm:my-20">
+        <p className="text-3xl mb-2">Leetcode Profile:</p>
+        <p className="text-xl my-2">
+          <u>
+            <a target="_blank" href="https://leetcode.com/u/Jeelani443/">
+              Leetcode Profile Link
+            </a>
+          </u>
+        </p>
+        <p className="text-xl">Just Started Way to go</p>
+        <img className="mt-3 mb-3" src={Leetcode} alt="" />
+      </div>
+
+      <div className="sm:px-20 sm:mx-10 sm:my-20 pl-2">
+      <p className="text-3xl mb-3">Latest Project:</p>
+            <p className='text-2xl pb-3'>Recipe Heaven</p>
+            <p className='mb-2'>Recipe Haven is a dynamic and user-friendly recipe website designed to help users discover a wide variety of dish recipes. Whether you're a seasoned chef or a kitchen novice, Recipe Haven provides an extensive database of recipes to suit all tastes and skill levels. This platform is built using the <b><u>MERN stack</u></b>(MongoDB, Express.js, React.js, and Node.js) and styled with <b><u>Tailwind CSS</u></b>, ensuring a seamless and visually appealing user experience.</p>
+            <img className='sm:w-[70vw] sm:h-[70vh] mt-3 mb-3' src={recipeheavenimg} alt="RecipeHeavenimg" />
+            <a className='text-xl underline' target="_blank" href="https://recipe-heaven-frontend-app.vercel.app/">Link to the Website : recipe-heaven-frontend-app.vercel.app/</a>
+            <p className="pt-3 mb-5">Go to Projects Section to check more Projects.</p>
+        </div>
+    </div>
+  );
+}
+
+export default Home;
