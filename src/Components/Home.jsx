@@ -28,9 +28,9 @@ function Home() {
         </div>
       </div>
 
-      <div className="sm:px-20 sm:mx-10 sm:my-20 pl-2 pt-6">
+      <div className="sm:px-20 sm:mx-10 sm:my-20 pl-2 pt-[3.3rem]">
         <p className="sm:text-3xl text-2xl">Education:</p>
-        <table className="border border-black sm:w-[80%] w-[94%] border-separate border-spacing-0 my-10 sm:text-2xl text-xl">
+        <table className="border border-black sm:w-[80%] w-[94%] border-separate border-spacing-0 sm:my-10 my-5 sm:text-2xl text-xl">
           <tbody>
             <tr className="border-b border-black">
               <td className="border border-black p-4">
