@@ -5,15 +5,15 @@ import recipeheavenimg from '../assets/Screenshot 2024-06-14 185148.png'
 function Home() {
   return (
     <div className="font-poppins px-5">
-      <div className="h-[90vh] sm:h-[60vh] flex flex-col sm:flex-row gap-[100px] justify-between items-center px-2 sm:mx-10 bg-orange-500 rounded-md sm:py-20 sm:px-20 mb-10">
+      <div className="h-[65vh] sm:h-[60vh] flex flex-col sm:flex-row gap-[40px] justify-between items-center px-2 sm:mx-10 bg-orange-500 rounded-md sm:py-20 sm:px-20 sm:mb-10">
         <div className="h-[40vh]">
-          <div className="text-5xl pb-10 pt-5 flex flex-col gap-6">
+          <div className="sm:text-5xl text-3xl sm:pb-10 pb-5 pt-5 flex flex-col sm:gap-6 gap-2">
             Hey There. <br />{" "}
             <span>
               I'm <u className="text-[#ffffff] font-bold">Jeelani Basha.</u>
             </span>
           </div>
-          <div className="text-2xl flex flex-wrap sm:w-[53vw]">
+          <div className="sm:text-2xl text-xl flex flex-wrap sm:w-[53vw]">
             I'm a Web Developer, 3rd year B.Tech Computer Science (CSE) Student,
             Aspiring to become a Software Engineer. Also intersted in Problem
             Solving.
@@ -21,16 +21,16 @@ function Home() {
         </div>
         <div className="h-full">
           <img
-            className="h-[34vh] w-[35vh] border-black border-2"
+            className="sm:h-[34vh] sm:w-[35vh] h-[30vh] w-[31vh] border-black border-2"
             src={Myimg}
             alt="Personal Photo"
           />
         </div>
       </div>
 
-      <div className="sm:px-20 sm:mx-10 sm:my-20 pl-2">
-        <p className="text-3xl">Education:</p>
-        <table className="border border-black w-[80%] border-separate border-spacing-0 my-10 text-2xl">
+      <div className="sm:px-20 sm:mx-10 sm:my-20 pl-2 pt-6">
+        <p className="sm:text-3xl text-2xl">Education:</p>
+        <table className="border border-black sm:w-[80%] w-[94%] border-separate border-spacing-0 my-10 sm:text-2xl text-xl">
           <tbody>
             <tr className="border-b border-black">
               <td className="border border-black p-4">
@@ -71,9 +71,9 @@ function Home() {
         </a>
       </div>
 
-      <div className="sm:px-20 sm:mx-10 sm:my-20">
-        <p className="text-3xl mb-2">Leetcode Profile:</p>
-        <p className="text-xl my-2">
+      <div className="sm:px-20 sm:mx-10 sm:my-20 mt-10">
+        <p className="sm:text-3xl text-2xl mb-2">Leetcode Profile:</p>
+        <p className="sm:text-xl text-md my-2">
           <u>
             <a target="_blank" href="https://leetcode.com/u/Jeelani443/">
               Leetcode Profile Link
@@ -84,13 +84,13 @@ function Home() {
         <img className="mt-3 mb-3" src={Leetcode} alt="" />
       </div>
 
-      <div className="sm:px-20 sm:mx-10 sm:my-20 pl-2">
-      <p className="text-3xl mb-3">Latest Project:</p>
-            <p className='text-2xl pb-3'>Recipe Heaven</p>
+      <div className="sm:px-20 sm:mx-10 sm:my-20 pl-2 pt-10">
+      <p className="sm:text-3xl text-2xl mb-3">Latest Project:</p>
+            <p className='sm:text-2xl text-xl pb-3'>Recipe Heaven</p>
             <p className='mb-2'>Recipe Haven is a dynamic and user-friendly recipe website designed to help users discover a wide variety of dish recipes. Whether you're a seasoned chef or a kitchen novice, Recipe Haven provides an extensive database of recipes to suit all tastes and skill levels. This platform is built using the <b><u>MERN stack</u></b>(MongoDB, Express.js, React.js, and Node.js) and styled with <b><u>Tailwind CSS</u></b>, ensuring a seamless and visually appealing user experience.</p>
             <img className='sm:w-[70vw] sm:h-[70vh] mt-3 mb-3' src={recipeheavenimg} alt="RecipeHeavenimg" />
-            <a className='text-xl underline' target="_blank" href="https://recipe-heaven-frontend-app.vercel.app/">Link to the Website : recipe-heaven-frontend-app.vercel.app/</a>
-            <p className="pt-3 mb-5">Go to Projects Section to check more Projects.</p>
+            <a className='sm:text-xl text-md underline' target="_blank" href="https://recipe-heaven-frontend-app.vercel.app/">Link to the Website : recipe-heaven-frontend-app.vercel.app/</a>
+            <p className="sm:pt-3 pt-6 sm:mb-5 mb-10">Go to Projects Section to check more Projects.</p>
         </div>
     </div>
   );
