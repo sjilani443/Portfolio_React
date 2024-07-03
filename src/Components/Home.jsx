@@ -17,7 +17,7 @@ function Home() {
           transition={{ duration: 0.5, ease: "easeInOut", delay: 0.3 }}
           className="h-[65vh] sm:h-[60vh] flex flex-col md:flex-row gap-[40px] justify-between items-center px-2 sm:mx-10 bg-orange-500 rounded-md sm:py-20 sm:px-20 sm:mb-10"
         >
-          <div className="h-[40vh]">
+          <div className="h-[40vh] px-3">
             <div className="sm:text-5xl text-3xl sm:pb-10 pb-5 pt-5 flex flex-col sm:gap-6 gap-2">
               Hey There. <br />{" "}
               <span
