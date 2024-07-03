@@ -5,7 +5,7 @@ import filmvaultimg from '../assets/Screenshot 2024-06-14 192834.png'
 
 function Projects() {
   return (
-    <div className='sm:px-20 sm:my-20 sm:mx-10 font-poppins mx-5 mb-5'>
+    <div className='sm:px-20 sm:my-20 sm:mx-10 font-poppins mx-5 mb-5 my-32 py-10'>
       <p className='text-2xl pb-10'>Projects:</p>
       <div>
         <div>

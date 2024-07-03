@@ -10,6 +10,7 @@ export default {
       'poppins':['Poppins','sans-serif'],
       'tiny5':["Tiny5", 'sans-serif'],
       'space':["Space Mono", 'monospace'],
+      'outfit':["Outfit", 'sans-serif']
     },
   },
   plugins: [],
